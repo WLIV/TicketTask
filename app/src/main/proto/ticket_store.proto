@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.example.testticketaskkotlin";
+option java_multiple_files = true;
+
+message Ticket {
+  int32 id = 1;
+
+  string productName = 2;
+
+  int32 price = 3; // price in cents
+}
